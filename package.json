@@ -1,10 +1,10 @@
 {
   "name": "react-app-loader",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Small utility function to inject a new react app into the DOM.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/atrincas/react-app-loader.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,11 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "app",
+    "loader"
+  ],
   "author": "Adam Trincas",
   "license": "MIT",
   "dependencies": {},

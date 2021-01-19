@@ -1,10 +1,10 @@
 export interface Options {
-  isModal: boolean
+  appendDiv: boolean
 }
 export async function loadApp(url: string, appId: string, options?: Options) {
   const dataString = await (await fetch(url)).text()
 
-  if (options && options.isModal) {
+  if (options && options.appendDiv) {
     let oldDiv = document.getElementById(appId)
 
     if (oldDiv) {

@@ -1,6 +1,6 @@
 {
   "name": "react-app-loader",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Small utility function to inject a new react app into the DOM.",
   "repository": {
     "type": "git",

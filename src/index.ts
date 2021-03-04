@@ -41,3 +41,11 @@ export function removeApp(appId: string) {
     oldScript.remove()
   }
 }
+
+export function removeAppScript(appId: string) {
+  let oldScript = document.getElementById(`${appId}-script`)
+
+  if (oldScript) {
+    oldScript.remove()
+  }
+}
